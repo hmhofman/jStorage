@@ -1,3 +1,9 @@
+## NB!
+
+> This project is in a frozen state. No more API changes. Pull requests for bug fixes are welcomed, anything else gets most probably ignored. A bug is something that breaks the application, outdated package file is not a bug.
+
+----
+
 # jStorage
 
 **jStorage** is a cross-browser key-value store database to store data locally in the browser - jStorage supports all major browsers, both in **desktop** (yes - even Internet Explorer 6) and in **mobile**.
@@ -51,8 +57,9 @@ Sets a TTL (in milliseconds) for an existing key. Use 0 or negative value to cle
 
 ```javascript
 ttl = $.jStorage.getTTL("mykey"); // TTL in milliseconds or 0
-Gets remaining TTL (in milliseconds) for a key or 0 if not TTL has been set.
 ```
+
+Gets remaining TTL (in milliseconds) for a key or 0 if not TTL has been set.
 
 ### flush()
 
@@ -185,7 +192,9 @@ Project homepage and docs: [www.jstorage.info](http://www.jstorage.info)
 
 ## License
 
-**MIT**
+[Unlicense](http://unlicense.org/) Since version 0.4.7
+
+**MIT** (versions up to 0.4.6)
 
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/andris9/jstorage/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
